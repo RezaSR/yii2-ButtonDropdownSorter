@@ -12,7 +12,8 @@ Be sure the {sorter} exists in widget's template.
 
 
 Example:
-```
+
+```php
 <?= ListView::widget([
 		'dataProvider' => $dataProvider,
 		'itemView' => '_views',
