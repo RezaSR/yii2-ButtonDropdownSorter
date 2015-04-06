@@ -1,5 +1,5 @@
-# yii2-ButtonDropdownSorter
-Bootstrap ButtonDropdown to use as sorter in yii2
+# ButtonDropdown Sorter Extension for Yii 2
+Bootstrap ButtonDropdown to use as sorter in yii2 widgets
 
 Installation
 ------------
