@@ -41,3 +41,7 @@ Example:
 		],
 ]); ?>
 ```
+
+Resources
+----
+* Extension page on yii website: [http://www.yiiframework.com/extension/yii2-button-dropdown-sorter](http://www.yiiframework.com/extension/yii2-button-dropdown-sorter).
