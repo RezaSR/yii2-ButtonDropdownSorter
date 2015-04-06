@@ -9,13 +9,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require reza-sr/yii2-button-dropdown-sorter
+php composer.phar require rsr/yii2-button-dropdown-sorter
 ```
 
 or add
 
 ```
-"reza-sr/yii2-button-dropdown-sorter": "*"
+"rsr/yii2-button-dropdown-sorter": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -23,7 +23,7 @@ to the require section of your `composer.json` file.
 Usage
 ----
 
-In widgets that have the sorter like ListView set the "class" attribute to "reza-sr\yii2-button-dropdown-sorter\ButtonDropdownSorter".
+In widgets that have the sorter like ListView set the "class" attribute to "rsr\yii2-button-dropdown-sorter\ButtonDropdownSorter".
 There is an optional "label" attribute which defines the label of the button which defaults to "Sort".
 Be sure the {sorter} exists in widget's template.
 
@@ -36,7 +36,7 @@ Example:
 		'itemView' => '_views',
 		'layout' => "{sorter}\n{summary}\n{items}\n{pager}",
 		'sorter' => [
-			'class' => 'reza-sr\yii2-button-dropdown-sorter\ButtonDropdownSorter',
+			'class' => 'rsr\yii2-button-dropdown-sorter\ButtonDropdownSorter',
 			'label' => 'Sort Items',
 		],
 ]); ?>
