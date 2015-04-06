@@ -23,9 +23,9 @@ to the require section of your `composer.json` file.
 Usage
 ----
 
-In widgets that have the sorter like ListView set the "class" attribute to "rsr\yii2-button-dropdown-sorter\ButtonDropdownSorter".
+In widgets that have the sorter, like ListView, set the "class" attribute to "rsr\yii2\ButtonDropdownSorter".
 There is an optional "label" attribute which defines the label of the button which defaults to "Sort".
-Be sure the {sorter} exists in widget's template.
+Be sure the {sorter} is present in widget's template.
 
 
 Example:
@@ -36,7 +36,7 @@ Example:
 		'itemView' => '_views',
 		'layout' => "{sorter}\n{summary}\n{items}\n{pager}",
 		'sorter' => [
-			'class' => 'rsr\yii2-button-dropdown-sorter\ButtonDropdownSorter',
+			'class' => 'rsr\yii2\ButtonDropdownSorter',
 			'label' => 'Sort Items',
 		],
 ]); ?>
