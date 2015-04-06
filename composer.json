@@ -1,35 +1,21 @@
 {
-
     "name": "rsr/yii2-button-dropdown-sorter",
-
     "description": "Bootstrap ButtonDropdown to use as sorter in yii2",
-
     "keywords": ["yii2", "bootstrap", "dropdown", "sorter"],
-
     "type": "yii2-extension",
-
     "authors": [
-
         {
-
             "name": "Reza Saberi Rad",
-
             "email": "rsr_reza@yahoo.com"
-
         }
-
     ],
-
     "require": {
-
         "yiisoft/yii2": "*",
-
         "yiisoft/yii2-bootstrap": "*"
-
     },
-
     "autoload": {
-
+        "psr-4": {
+            "rsr\\yii2\\": ""
+        }
     }
-
 }
