@@ -1,7 +1,6 @@
 <?php
 
 /**
- *
  * @see http://www.yiiframework.com/doc-2.0/yii-widgets-linksorter.html
  */
 namespace rsr\yii2;
